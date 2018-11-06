@@ -1,0 +1,66 @@
+Group IMD Developer Test
+by Richard Alejandro
+
+User Story 911: See details in "Developer Test.pdf"
+
+PLATFORMS
+
+IDE
+Visual Studio Community 2017
+- Used to develop Web API (Server-side)
+
+Visual Studio Code
+- Used to develop Angular 2 Application (Client)
+
+TECHNOLOGIES
+
+Back-end (Server-side)
+.NET Framework 4.6.1
+C#
+Web API 2
+Entity Framework 6
+Microsoft SQL LocalDB
+Microsoft Visual Studio Test Platform
+Moq
+
+Front-end (Client-side)
+Angular 2
+Twitter Bootstrap 4
+Jasmine
+Karma
+
+HOW TO RUN THE WEB API AND ANGULAR APPLICATIONS
+
+How to run the WebAPI
+1. Navigate to the folder WebAPI
+2. Open ExamGroupIMD.sln
+3. The Clips Table in the GroupIMDContext DB already has pre-loaded data (EF code first Seed Migration)
+4. Make sure ExamGroupIMD.WebAPI is the StartUp Project
+5. Run in Debug Mode (F5)
+6. Browser will open
+7. Please make sure that http://localhost:36365 is the port number
+8. If the port number of the WebAPI unexpectedly changed, please copy the new port number
+9. Once Visual Studio Code and the project folder have been opened (See How to run Angular), open app.constants.ts
+10. Update "urlAPI" with the new port number to ensure that the application will properly run
+
+How to run Angular
+1. Open Visual Studio Code
+2. Click File > Open Folder
+3. Navigate and select AngularGroupIMD
+4. Open the Terminal window (CTRL + `)
+5. If the node_modules folder is not available, "npm install" needs to be performed to install the dependencies
+6. Type "npm start" and press Enter
+7. Wait for the application to build and launch
+8. You can now test the scenarios in the User Story 911
+
+HOW TO RUN THE WEB API AND ANGULAR UNIT TESTS
+
+How to run WebAPI the Unit Test
+1. Go to Test > Run > All Test
+2. Go to Test Explorer for results
+
+How to run Angular Unit Test
+1. Open the Terminal window (CTRL + `)
+2. Type "npm test" and press Enter
+3. Wait for the unit test to begin
+4. A window browser will open and display the results

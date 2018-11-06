@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
+div.card-header {
+    font-size: large;
+}
+
+div.card {
+    margin-top: 30px
+}
+
+.table {
+    margin-top: 10px
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: #028193;
+}
+
+.nav-link {
+    color: #028193;
+}
+
+.button-width {
+    width: 100px;
+}
+
+a {
+    color: #028193;
+}
+
+.table thead th {
+    color: #ffffff;
+    background: #028193;
+}

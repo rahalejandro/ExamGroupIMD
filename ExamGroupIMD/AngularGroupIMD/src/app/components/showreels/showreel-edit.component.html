@@ -1,0 +1,125 @@
+<div class='card'>
+    <div class='card-header'>
+        {{pageTitle}}
+    </div>
+    <div class='card-body'>
+        <form novalidate
+            autocomplete="off"
+            (ngSubmit)="saveShowReel()"
+            [formGroup]="showReelForm">
+
+            <div class="form-group row">
+                <label class="col-md-2 col-form-label"
+                    for="ReelNameId">Name</label>
+                <div class="col-md-8">
+                    <input class="form-control"
+                        id="ReelNameId"
+                        type="text"
+                        placeholder="Name (required)"
+                        formControlName="Name"
+                        [ngClass]="{'is-invalid': showReelNameMessage }" />
+                    <span class="invalid-feedback">
+                        <span *ngIf="showReelNameMessage">
+                            {{ showReelNameMessage }}
+                        </span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-md-2 col-form-label">Video Standard</label>
+                <div class="col-md-8">
+                    <select class="form-control"
+                        required
+                        formControlName="Standard"
+                        (change)="changeStandard($event)"
+                        [ngClass]="{'is-invalid': (showReelForm.get('Standard').touched || showReelForm.get('Standard').dirty) 
+                                    && !showReelForm.get('Standard').valid }">
+                        <option value="" selected>
+                            Select a Video Standard (required)
+                        </option>
+                        <option [value]="s.name" *ngFor="let s of standardList">
+                            {{ s.name }}
+                        </option>
+                    </select>
+                    <span class="invalid-feedback">
+                        <span *ngIf="showReelForm.get('Standard').errors?.required">
+                            ShowReel Video Standard is required.
+                        </span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-md-2 col-form-label">Video Definition</label>
+                <div class="col-md-8">
+                    <select class="form-control"
+                        formControlName="Definition"
+                        (change)="changeDefinition($event)"
+                        [ngClass]="{'is-invalid': (showReelForm.get('Definition').touched || showReelForm.get('Definition').dirty) 
+                                    && !showReelForm.get('Definition').valid }">
+                        <option value="" selected>
+                            Select a Video Definition (required)
+                        </option>
+                        <option [value]="d.name" *ngFor="let d of definitionList">
+                                {{ d.name }}
+                        </option>
+                    </select>
+                    <span class="invalid-feedback">
+                        <span *ngIf="showReelForm.get('Definition').errors?.required">
+                            ShowReel Video Definition is required.
+                        </span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-md-2 col-form-label" 
+                        for="Duration">Duration</label>
+                <div class="col-md-8">
+                    <input class="form-control"
+                        id="DurationId"
+                        value="{{ showReelDuration | convertTimecodeClips }}"
+                        type="text"
+                        placeholder="00:00:00:00"
+                        formControlName="Duration" />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-md-2 col-form-label" 
+                    for="Duration"></label>
+                <div class="col-md-8">
+                    <button
+                        id="showReelSave" 
+                        class="btn btn-outline-primary button-width"
+                        type="submit"
+                        [disabled]="validateFields()">
+                        Save
+                    </button>
+                    &nbsp;
+                    <button class="btn btn-outline-danger button-width"
+                        type="button"
+                        [routerLink]="['/showreels']">
+                        Cancel
+                    </button>
+                    &nbsp;
+                    <button *ngIf="isEdit" class="btn btn-outline-warning button-width"
+                        type="button"
+                        (click)="deleteShowReel()">
+                        Delete
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <video-clips *ngIf="Standard && Definition" [standard]=Standard [definition]=Definition [editClips]=EditClips [changelist]=ChangeList (reelClips)="clipAdded($event)"></video-clips>
+            </div>
+
+        </form>
+    </div>
+</div>
+<br>
+<div *ngIf="errorMessage" class="alert alert-danger"> 
+    {{ errorMessage }}
+</div>

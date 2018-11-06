@@ -1,0 +1,11 @@
+<nav class='navbar navbar-expand navbar-light bg-light'>
+  <a class="navbar-brand" href="#"><img src="./assets/images/groupimd_logo.png" height="50" width="300" /></a>
+  <ul class='nav nav-pills'>
+    <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/home']">Home</a></li>
+    <li><a class='nav-link' routerLinkActive='active' [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/showreels']">ShowReel List</a></li>
+    <li><a class='nav-link' routerLinkActive='active' [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['/showreels', 0, 'edit']">Add ShowReel</a></li>
+  </ul>
+</nav>
+<div class='container'>
+<router-outlet></router-outlet>
+</div>

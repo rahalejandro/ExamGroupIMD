@@ -1,0 +1,45 @@
+<div class='table-responsive'>
+    <table class="table"
+        *ngIf="filteredClips && filteredClips.length">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Standard</th>
+                <th>Definition</th>
+                <th>Start TimeCode</th>
+                <th>End TimeCode</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let clip of filteredClips">
+                <td>
+                    <input type="checkbox"
+                        name="clipOptions" 
+                        value="{{ clip.ClipId }}"
+                        [checked]="clip.isChecked"
+                        (change)="addClip($event)" />
+                </td>
+                <td>
+                    {{ clip.Name }}
+                </td>
+                <td>
+                    {{ clip.Description }}
+                </td>
+                <td>
+                    {{ clip.Standard }}
+                </td>
+                <td>
+                    {{ clip.Definition }}
+                </td>
+                <td>
+                    {{ clip.StartTime | convertToTimeCode }}
+                </td>
+                <td>
+                    {{ clip.EndTime | convertToTimeCode }}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
