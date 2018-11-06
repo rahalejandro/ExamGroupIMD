@@ -81,20 +81,26 @@ namespace WebAPIUnitTest.Controllers
 
         private Reel GetTestObject()
         {
-            Clip clip = new Clip();
-            clip.ClipId = 1;
-            clip.Name = "Bud Light";
-            clip.Description = "A factory is working on the new Bud Light Platinum.";
-            clip.Standard = "PAL";
-            clip.Definition = "SD";
-            clip.StartTime = new Timecode();
-            clip.EndTime = new Timecode { Seconds = 30, Frames = 12 };
-
-            Reel reel = new Reel();
-            reel.ReelId = 1;
-            reel.Name = "Beer";
-            reel.Standard = "PAL";
-            reel.Definition = "SD";
+            Reel reel = new Reel()
+            {
+                Name = "The Show Reel",
+                Standard = "PAL",
+                Definition = "SD",
+                Clips = new List<Clip>
+                {
+                    new Clip
+                    {
+                        ClipId = 6,
+                        Name = "Pepsi",
+                        Description = "People in the Middles Ages try to entertain their king (Elton John) for a Pepsi. While the first person fails, a mysterious person (Season 1 X Factor winner Melanie Amaro) " +
+                                      "wins the Pepsi by singing Aretha Franklin's \"Respect\". After she wins, she overthrows the king and gives Pepsi to all the town.",
+                        Standard = "NTSC",
+                        Definition = "SD",
+                        StartTime = new Timecode(),
+                        EndTime = new Timecode { Seconds = 30, Frames = 12 }
+                    }
+                }
+            };
 
             return reel;
         }

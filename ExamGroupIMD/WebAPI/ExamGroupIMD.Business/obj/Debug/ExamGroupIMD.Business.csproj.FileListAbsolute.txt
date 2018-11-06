@@ -26,3 +26,17 @@ C:\Users\Ryan\Documents\Visual Studio 2017\Projects\ExamGroupIMD\WebAPI\ExamGrou
 C:\Users\Ryan\Documents\Visual Studio 2017\Projects\ExamGroupIMD\WebAPI\ExamGroupIMD.Business\obj\Debug\ExamGroupIMD.Business.csproj.CopyComplete
 C:\Users\Ryan\Documents\Visual Studio 2017\Projects\ExamGroupIMD\WebAPI\ExamGroupIMD.Business\obj\Debug\ExamGroupIMD.Business.dll
 C:\Users\Ryan\Documents\Visual Studio 2017\Projects\ExamGroupIMD\WebAPI\ExamGroupIMD.Business\obj\Debug\ExamGroupIMD.Business.pdb
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business\bin\Debug\ExamGroupIMD.Business.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business\bin\Debug\ExamGroupIMD.Business.pdb
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business\bin\Debug\ExamGroupIMD.Data.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business\bin\Debug\ExamGroupIMD.Entities.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business\bin\Debug\EntityFramework.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business\bin\Debug\ExamGroupIMD.Data.pdb
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business\bin\Debug\ExamGroupIMD.Data.dll.config
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business\bin\Debug\ExamGroupIMD.Entities.pdb
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business\bin\Debug\EntityFramework.xml
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business\obj\Debug\ExamGroupIMD.Business.csprojAssemblyReference.cache
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business\obj\Debug\ExamGroupIMD.Business.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business\obj\Debug\ExamGroupIMD.Business.csproj.CopyComplete
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business\obj\Debug\ExamGroupIMD.Business.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business\obj\Debug\ExamGroupIMD.Business.pdb

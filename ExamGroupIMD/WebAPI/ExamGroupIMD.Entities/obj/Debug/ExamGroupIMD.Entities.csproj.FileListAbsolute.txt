@@ -9,3 +9,8 @@ C:\Users\Ryan\Documents\Visual Studio 2017\Projects\ExamGroupIMD\WebAPI\ExamGrou
 C:\Users\Ryan\Documents\Visual Studio 2017\Projects\ExamGroupIMD\WebAPI\ExamGroupIMD.Entities\obj\Debug\ExamGroupIMD.Entities.dll
 C:\Users\Ryan\Documents\Visual Studio 2017\Projects\ExamGroupIMD\WebAPI\ExamGroupIMD.Entities\obj\Debug\ExamGroupIMD.Entities.pdb
 C:\Users\Ryan\Documents\Visual Studio 2017\Projects\ExamGroupIMD\WebAPI\ExamGroupIMD.Entities\obj\Debug\ExamGroupIMD.Entities.csprojAssemblyReference.cache
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Entities\bin\Debug\ExamGroupIMD.Entities.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Entities\bin\Debug\ExamGroupIMD.Entities.pdb
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Entities\obj\Debug\ExamGroupIMD.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Entities\obj\Debug\ExamGroupIMD.Entities.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Entities\obj\Debug\ExamGroupIMD.Entities.pdb

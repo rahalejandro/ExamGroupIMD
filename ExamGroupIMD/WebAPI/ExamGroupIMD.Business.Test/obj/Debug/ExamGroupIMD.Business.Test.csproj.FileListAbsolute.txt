@@ -30,3 +30,35 @@ C:\Users\Ryan\Documents\Visual Studio 2017\Projects\ExamGroupIMD\WebAPI\ExamGrou
 C:\Users\Ryan\Documents\Visual Studio 2017\Projects\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\obj\Debug\ExamGroupIMD.Business.Test.csproj.CopyComplete
 C:\Users\Ryan\Documents\Visual Studio 2017\Projects\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\obj\Debug\ExamGroupIMD.Business.Test.dll
 C:\Users\Ryan\Documents\Visual Studio 2017\Projects\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\obj\Debug\ExamGroupIMD.Business.Test.pdb
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\ExamGroupIMD.Business.Test.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\ExamGroupIMD.Business.Test.pdb
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\Castle.Core.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\ExamGroupIMD.Business.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\ExamGroupIMD.Data.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\ExamGroupIMD.Entities.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\Moq.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\System.ValueTuple.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\EntityFramework.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\ExamGroupIMD.Business.pdb
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\ExamGroupIMD.Data.pdb
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\ExamGroupIMD.Data.dll.config
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\ExamGroupIMD.Entities.pdb
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\Castle.Core.xml
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\Moq.pdb
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\Moq.xml
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\System.ValueTuple.xml
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\bin\Debug\EntityFramework.xml
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\obj\Debug\ExamGroupIMD.Business.Test.csprojAssemblyReference.cache
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\obj\Debug\ExamGroupIMD.Business.Test.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\obj\Debug\ExamGroupIMD.Business.Test.csproj.CopyComplete
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\obj\Debug\ExamGroupIMD.Business.Test.dll
+C:\Users\Ryan\Documents\GitHub\ExamGroupIMD\ExamGroupIMD\WebAPI\ExamGroupIMD.Business.Test\obj\Debug\ExamGroupIMD.Business.Test.pdb
